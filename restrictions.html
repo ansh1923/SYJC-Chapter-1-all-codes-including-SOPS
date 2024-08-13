@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Restricted forms</title>
+</head>
+<body>
+<form method=post action=data.php>
+Name:<input type=text name=n1 placeholder="Your Name" autofocus><br>
+Name square:<input type=text name=n2 disabled><br>
+Name cube:<input type=text name=n3 placeholder="Your name" readonly><br>=\
+Standard:<input type=radio name=s1 value=11>FYJC<input type=radio name=s1 value=12>SYJC<br>
+Address:<textarea cols=10 rows=10 placeholder="Your address"></textarea><br>
+Hobbies:<input type=checkbox name=c1 value=cr>Cricket<input type=checkbox name=c2 value=fb>Football<input type=checkbox name=c3 value=ch>Chess<br>
+E-mail:<input type=email name=email><br>
+Date of Birth:<input type=date name=dob><br>
+Current time:<input type=time name=ind_time><br>
+Your age:<input type=number min=16 max=100><br>
+Your phone number:<input type=tel name=telephone pattern=[0-9]{2}-[0-9]{10} required><br>
+Add your main page:<input type=url name=mainpage><br>
+Your favourite color:<input type=color name=cr1><br>
+Your favourite number:<input type=number name=n1><br>
+Your favourite month and year:<input type=month name=m1><br>
+No. of years of work experience:<input type=range name=r1><br>
+Date of joining first company as an intern:<input type=datetime-local name=d1><br>
+Current week:<input type=week name=w1><br>
+Search something you like:<input type=search name=sr1 autocomplete=on><br>
+Insert file:<input type=file name=f1 multiple><br>
+<input type=image src="submitbutton.png" alt="Submit this form" height=100 width=100> <input type=reset value="Clear me">
+</form>
+</body>
+</html>
